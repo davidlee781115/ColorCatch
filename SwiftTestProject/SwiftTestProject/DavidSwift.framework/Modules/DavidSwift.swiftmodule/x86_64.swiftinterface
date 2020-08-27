@@ -1,0 +1,130 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.1.2 (swiftlang-1100.0.278 clang-1100.0.33.9)
+// swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name DavidSwift
+@_exported import DavidSwift
+import Foundation
+import Swift
+import UIKit
+@objc public class TestUtil : ObjectiveC.NSObject {
+  public func getString() -> Swift.String
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc open class styleView : UIKit.UIView {
+  public enum ShadowPositionType : Swift.Int {
+    case None
+    case Top
+    case Bottom
+    case BottomRight
+    public typealias RawValue = Swift.Int
+    public init?(rawValue: Swift.Int)
+    public var rawValue: Swift.Int {
+      get
+    }
+  }
+  @objc @IBInspectable open var CornerRadius: CoreGraphics.CGFloat {
+    @objc get
+    @objc set(newValue)
+  }
+  @objc @IBInspectable open var BorderWidth: CoreGraphics.CGFloat {
+    @objc get
+    @objc set(newValue)
+  }
+  @objc @IBInspectable open var BorderColor: UIKit.UIColor {
+    @objc get
+    @objc set(newValue)
+  }
+  @objc @IBInspectable public var ShadowType: Swift.Int {
+    @objc get
+    @objc set(newValue)
+  }
+  @objc @IBInspectable public var St1Top: Swift.String {
+    @objc get
+    @objc set(newValue)
+  }
+  @objc @IBInspectable public var St2Bottom: Swift.String {
+    @objc get
+    @objc set(newValue)
+  }
+  @objc @IBInspectable public var St3BottomRight: Swift.String {
+    @objc get
+    @objc set(newValue)
+  }
+  @objc @IBInspectable public var ShadowEnable: Swift.Bool {
+    @objc get
+    @objc set(newValue)
+  }
+  @objc @IBInspectable public var ShadowColor: UIKit.UIColor {
+    @objc get
+    @objc set(newValue)
+  }
+  @objc @IBInspectable public var ShadowOffset: CoreGraphics.CGSize {
+    @objc get
+    @objc set(newValue)
+  }
+  @objc @IBInspectable public var shadowOpacity: Swift.Float {
+    @objc get
+    @objc set(newValue)
+  }
+  @objc @IBInspectable public var shadowRadius: CoreGraphics.CGFloat {
+    @objc get
+    @objc set(newValue)
+  }
+  @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+@objc open class styleLabel : UIKit.UILabel {
+  @objc @IBInspectable open var CornerRadius: CoreGraphics.CGFloat {
+    @objc get
+    @objc set(newValue)
+  }
+  @objc @IBInspectable open var BorderWidth: CoreGraphics.CGFloat {
+    @objc get
+    @objc set(newValue)
+  }
+  @objc @IBInspectable open var BorderColor: UIKit.UIColor {
+    @objc get
+    @objc set(newValue)
+  }
+  @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+@objc open class styleButton : UIKit.UIButton {
+  @objc @IBInspectable open var CornerRadius: CoreGraphics.CGFloat {
+    @objc get
+    @objc set(newValue)
+  }
+  @objc @IBInspectable open var BorderWidth: CoreGraphics.CGFloat {
+    @objc get
+    @objc set(newValue)
+  }
+  @objc @IBInspectable open var BorderColor: UIKit.UIColor {
+    @objc get
+    @objc set(newValue)
+  }
+  @objc @IBInspectable public var ShadowEnable: Swift.Bool {
+    @objc get
+    @objc set(newValue)
+  }
+  @objc @IBInspectable public var ShadowColor: UIKit.UIColor {
+    @objc get
+    @objc set(newValue)
+  }
+  @objc @IBInspectable public var ShadowOffset: CoreGraphics.CGSize {
+    @objc get
+    @objc set(newValue)
+  }
+  @objc @IBInspectable public var shadowOpacity: Swift.Float {
+    @objc get
+    @objc set(newValue)
+  }
+  @objc @IBInspectable public var shadowRadius: CoreGraphics.CGFloat {
+    @objc get
+    @objc set(newValue)
+  }
+  @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}

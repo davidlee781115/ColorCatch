@@ -1,0 +1,11 @@
+framework module DavidSwift {
+  umbrella header "DavidSwift.h"
+
+  export *
+  module * { export * }
+}
+
+module DavidSwift.Swift {
+    header "DavidSwift-Swift.h"
+    requires objc
+}
